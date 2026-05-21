@@ -3,7 +3,7 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { QRCodeSVG } from "qrcode.react";
 
-const API = "http://localhost:8080";
+const API = "";
 
 export default function App() {
   const [url, setUrl] = useState("");

@@ -1,10 +1,6 @@
 -- Run this manually if you prefer to set up the DB before starting the service.
 -- The service also auto-creates the table on startup (via initDb()).
 
-CREATE DATABASE urlshortener;
-
-\c urlshortener;
-
 CREATE TABLE IF NOT EXISTS urls (
     id           SERIAL PRIMARY KEY,
     original_url TEXT        NOT NULL,
