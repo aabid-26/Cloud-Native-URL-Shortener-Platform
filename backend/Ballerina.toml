@@ -1,0 +1,14 @@
+[package]
+org = "urlshortener"
+name = "backend"
+version = "0.1.0"
+
+[[dependency]]
+org = "ballerinax"
+name = "postgresql"
+version = "1.18.0"
+
+[[dependency]]
+org = "ballerinax"
+name = "postgresql.driver"
+version = "1.6.3"
